@@ -64,4 +64,4 @@ aiExplain(
 
 ## Tác giả
 
-Nguyễn Minh Toàn — toannm@iuh.edu.vn
+Nguyễn Minh Toàn — nguyenminhtoan@iuh.edu.vn
