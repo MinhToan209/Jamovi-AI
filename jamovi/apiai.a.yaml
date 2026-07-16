@@ -1,0 +1,32 @@
+---
+name:  apiAI
+title: API AI
+menuGroup: AI
+jas: "1.2"
+version: "1.0.0"
+
+options:
+    - name: input_text
+      title: "Dán nội dung bảng số liệu vào đây:"
+      type: String
+      default: ""
+
+    - name: api_url
+      title: "Đường dẫn API:"
+      type: String
+      default: "https://api.openai.com/v1/chat/completions"
+
+    - name: api_key
+      title: "API Key:"
+      type: String
+      default: ""
+
+    - name: model_name
+      title: "Tên Model AI:"
+      type: String
+      default: "gpt-4o-mini"
+
+    - name: system_prompt
+      title: "Câu lệnh Prompt hướng dẫn AI:"
+      type: String
+      default: "Bạn là một chuyên gia phân tích số liệu. Hãy đọc nội dung bảng dữ liệu sau và viết một đoạn giải thích ngắn gọn, chuẩn học thuật bằng tiếng Việt."

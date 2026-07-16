@@ -1,0 +1,27 @@
+---
+title: AI Giai Thich Ket Qua
+name: jamoviAI
+version: 1.1.0
+jms: '1.0'
+authors:
+  - Nguyễn Minh Toàn
+maintainer: Nguyễn Minh Toàn <toannm@iuh.edu.vn>
+date: '2026-06-22'
+type: R
+analyses:
+  - name: aiExplain
+    title: Local AI
+    menuGroup: AI
+    ns: jamoviAI
+    category: analyses
+    menuTitle: Local AI
+  - name: apiAI
+    title: API AI
+    menuGroup: AI
+    ns: jamoviAI
+    category: analyses
+    menuTitle: API AI
+usesNative: true
+minApp: 1.8.0
+
+...

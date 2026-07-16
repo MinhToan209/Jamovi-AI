@@ -1,0 +1,49 @@
+name: apiAI
+title: API AI
+jus: "2.0"
+stage: 0
+compilerMode: tame
+
+children:
+
+  - type: LayoutBox
+    stretchFactor: 2
+    margin: large
+    children:
+      - type: TextBox
+        name: input_text
+        format: string
+
+  - type: CollapseBox
+    label: "Kết nối"
+    collapsed: false
+    children:
+      - type: LayoutBox
+        margin: large
+        children:
+          - type: TextBox
+            name: api_url
+            format: string
+      - type: LayoutBox
+        margin: large
+        children:
+          - type: TextBox
+            name: api_key
+            format: string
+      - type: LayoutBox
+        margin: large
+        children:
+          - type: TextBox
+            name: model_name
+            format: string
+
+  - type: CollapseBox
+    label: "Prompt hệ thống"
+    collapsed: true
+    children:
+      - type: LayoutBox
+        margin: large
+        children:
+          - type: TextBox
+            name: system_prompt
+            format: string

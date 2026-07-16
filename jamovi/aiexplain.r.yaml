@@ -1,0 +1,9 @@
+---
+name:  aiExplain
+title: Kết quả xử lý từ Local AI
+jrs: "1.0"
+
+items:
+    - name: text_output
+      title: Đoạn văn bản tự động giải thích
+      type: Preformatted

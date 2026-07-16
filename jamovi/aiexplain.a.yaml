@@ -1,0 +1,27 @@
+---
+name:  aiExplain
+title: Local AI
+menuGroup: AI
+jas: "1.2"
+version: "1.0.0"
+
+options:
+    - name: input_text
+      title: "Dán nội dung bảng số liệu vào đây:"
+      type: String
+      default: ""
+
+    - name: ollama_url
+      title: "Đường dẫn Ollama Local API:"
+      type: String
+      default: "http://localhost:11434/v1/chat/completions"
+
+    - name: model_name
+      title: "Tên Model AI:"
+      type: String
+      default: "deepseek-r1:14b"
+
+    - name: system_prompt
+      title: "Câu lệnh Prompt hướng dẫn AI:"
+      type: String
+      default: "Bạn là một chuyên gia phân tích số liệu. Hãy đọc nội dung bảng dữ liệu sau và viết một đoạn giải thích ngắn gọn, chuẩn học thuật bằng tiếng Việt."

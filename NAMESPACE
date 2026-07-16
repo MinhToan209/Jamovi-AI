@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+
+export(aiExplainClass)
+export(aiExplainOptions)

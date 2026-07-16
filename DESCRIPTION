@@ -1,0 +1,11 @@
+Package: jamoviAI
+Title: AI Giai Thich Ket Qua
+Type: Module
+Encoding: UTF-8
+Version: 1.1.0
+Author: Nguyễn Minh Toàn
+Maintainer: Nguyễn Minh Toàn <toannm@iuh.edu.vn>
+Description: Module tich hop AI de doc va giai thich du lieu thong ke.
+License: GPL-3
+Imports: httr, jsonlite
+jamovi: '2.0'
